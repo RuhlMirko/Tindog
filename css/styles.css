@@ -1,0 +1,132 @@
+/*------------------ID's------------------*/
+#title{
+    background-color: #ff4c68;
+    padding: 0 15% 3%;
+}
+#phone-image{   
+    transform: rotate(30deg);
+    width: 20%;
+    right: 23%;
+    position: absolute;
+}
+#features{
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 5% 10%;    
+    background-color: white;
+    position: relative;
+}
+#features h3{
+    font-weight: 900;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 12%;
+    margin: 0px 20px 70px;
+}
+#pricing .card{
+    text-align: center;
+}
+#pricing .btn{
+    width: 100%;
+}
+
+
+/*-------------Clases---------------*/
+.nav-item{
+    font-size: 1.2rem;
+    padding-left: 70px;
+    margin-right: 50px;
+}
+#features .fa-solid{
+    font-size: 450%;
+    color: #ef8172;
+    padding: 30px 0;
+}
+#features .fa-solid:hover{
+    color: #ff4c68;
+    transform: scale(130%);
+    transition:0.5s;    
+}
+.test-images{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.container-fluid{
+    padding-bottom: 10%;
+}
+
+/*---------------Elementos-----------------------*/
+#title h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+h2{
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top:60px ;    
+}
+p{
+    text-align: center;
+}
+/*--------Media query----------*/
+@media (max-width:992px){
+    #phone-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        padding-top: 60px;
+    }
+    #title{
+        text-align: center;
+    }
+    #press{        
+        padding-top: 3%;
+    }
+    #press img{
+        position: relative;
+        width: 30%;
+    }
+}
+/****-------Call to Action--------****/ 
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 100px 0 8%;
+    text-align: center;
+    margin-top: 50px;
+}
+#cta h3{    
+    font-family: 'Montserrat';
+    padding-bottom: 3%;
+}
+#footer{
+    text-align: center;
+    color: black;
+    font-size: 120%;
+    padding-top: 5%;
+}
+#footer i{
+    padding: 0 10px;
+}
+#footer p{
+    padding-top: 1%;
+    padding-bottom: 4%;
+    font-size: 1.5rem;
+}
