@@ -1,2 +1,2 @@
 # Tindog
-Tindog web from Angela Yu udemy course
+Tindog website project from Angela Yu Udemy course
